@@ -6,11 +6,7 @@
     "category": "bags",
     "type": "shoulder bag",
     "image": "/images/product1.jpg",
-    "description": "Quilted faux-leather shoulder bag with gold chain detailing.",
-    "variants": {
-      "colors": ["black", "cream", "wine"],
-      "sizes": ["one-size"]
-    }
+    "description": "Quilted faux-leather shoulder bag with gold chain detailing."
   },
     { "id": 2, "title": "Post 2" },
     { "id": 3, "title": "Post 3" }
