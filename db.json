@@ -51,6 +51,218 @@
       "colors": ["navy", "black", "gray"],
       "sizes": ["46", "48", "50", "52", "54"]
     }
+  },
+    {
+    "id": 5,
+    "name": "Luma Minimal Leather Sneakers",
+    "price": 420,
+    "category": "shoes",
+    "type": "sneakers",
+    "image": "/images/product5.jpg",
+    "description": "Clean minimalist sneakers made with smooth leather upper.",
+    "variants": {
+      "colors": ["white", "black"],
+      "sizes": [6, 7, 8, 9, 10, 11]
+    }
+  },
+
+  {
+    "id": 6,
+    "name": "Aster Structured Tote Bag",
+    "price": 890,
+    "category": "bags",
+    "type": "tote",
+    "image": "/images/product6.jpg",
+    "description": "Structured everyday tote with reinforced handles and matte finish.",
+    "variants": {
+      "colors": ["tan", "black", "olive"],
+      "sizes": ["one-size"]
+    }
+  },
+  {
+    "id": 7,
+    "name": "Elyra Satin Midi Skirt",
+    "price": 520,
+    "category": "women's",
+    "type": "skirt",
+    "image": "/images/product7.jpg",
+    "description": "Flowing satin midi skirt with soft sheen finish.",
+    "variants": {
+      "colors": ["ivory", "black", "dusty rose"],
+      "sizes": ["XS", "S", "M", "L"]
+    }
+  },
+  {
+    "id": 8,
+    "name": "Cove Cashmere Knit Sweater",
+    "price": 680,
+    "category": "women's",
+    "type": "sweater",
+    "image": "/images/product8.jpg",
+    "description": "Ultra-soft cashmere knit sweater with relaxed fit.",
+    "variants": {
+      "colors": ["beige", "gray", "cream"],
+      "sizes": ["XS", "S", "M", "L", "XL"]
+    }
+  },
+  {
+    "id": 9,
+    "name": "Monarch Formal Oxford Shoes",
+    "price": 740,
+    "category": "shoes",
+    "type": "oxfords",
+    "image": "/images/product9.jpg",
+    "description": "Polished leather oxford shoes designed for formal wear.",
+    "variants": {
+      "colors": ["black", "brown"],
+      "sizes": [7, 8, 9, 10, 11, 12]
+    }
+  },
+  {
+    "id": 10,
+    "name": "Solenne Crossbody Mini Bag",
+    "price": 610,
+    "category": "bags",
+    "type": "crossbody",
+    "image": "/images/product10.jpg",
+    "description": "Compact crossbody bag with magnetic flap closure.",
+    "variants": {
+      "colors": ["black", "white", "burgundy"],
+      "sizes": ["one-size"]
+    }
+  },
+
+  {
+    "id": 11,
+    "name": "Virelle Pleated Wide-Leg Pants",
+    "price": 540,
+    "category": "women's",
+    "type": "pants",
+    "image": "/images/product11.jpg",
+    "description": "High-waisted pleated trousers with wide-leg silhouette.",
+    "variants": {
+      "colors": ["black", "sand", "navy"],
+      "sizes": ["XS", "S", "M", "L"]
+    }
+  },
+  {
+    "id": 12,
+    "name": "Noctra Hooded Utility Jacket",
+    "price": 880,
+    "category": "men's",
+    "type": "jacket",
+    "image": "/images/product12.jpg",
+    "description": "Modern utility jacket with water-resistant shell.",
+    "variants": {
+      "colors": ["black", "olive", "gray"],
+      "sizes": ["S", "M", "L", "XL"]
+    }
+  },
+  {
+    "id": 13,
+    "name": "Aurelia Chain Strap Heels",
+    "price": 590,
+    "category": "shoes",
+    "type": "heels",
+    "image": "/images/product13.jpg",
+    "description": "Elegant heels with delicate chain strap detail.",
+    "variants": {
+      "colors": ["black", "nude", "silver"],
+      "sizes": [5, 6, 7, 8, 9, 10]
+    }
+  },
+  {
+    "id": 14,
+    "name": "Sable Leather Belt Bag",
+    "price": 450,
+    "category": "bags",
+    "type": "belt bag",
+    "image": "/images/product14.jpg",
+    "description": "Compact leather belt bag for hands-free wear.",
+    "variants": {
+      "colors": ["black", "tan"],
+      "sizes": ["one-size"]
+    }
+  },
+  {
+    "id": 15,
+    "name": "Orla Structured Blazer",
+    "price": 920,
+    "category": "women's",
+    "type": "blazer",
+    "image": "/images/product15.jpg",
+    "description": "Sharp tailored blazer with defined shoulders.",
+    "variants": {
+      "colors": ["black", "white", "gray"],
+      "sizes": ["XS", "S", "M", "L"]
+    }
+  },
+
+  {
+    "id": 16,
+    "name": "Cairo Knit Polo Shirt",
+    "price": 310,
+    "category": "men's",
+    "type": "shirt",
+    "image": "/images/product16.jpg",
+    "description": "Fine knit polo shirt with minimalist design.",
+    "variants": {
+      "colors": ["white", "black", "navy"],
+      "sizes": ["S", "M", "L", "XL"]
+    }
+  },
+  {
+    "id": 17,
+    "name": "Elowen Satin Slip Dress",
+    "price": 760,
+    "category": "women's",
+    "type": "dress",
+    "image": "/images/product17.jpg",
+    "description": "Minimal satin slip dress with adjustable straps.",
+    "variants": {
+      "colors": ["black", "champagne", "emerald"],
+      "sizes": ["XS", "S", "M", "L"]
+    }
+  },
+  {
+    "id": 18,
+    "name": "Vanta Chunky Sole Boots",
+    "price": 690,
+    "category": "shoes",
+    "type": "boots",
+    "image": "/images/product18.jpg",
+    "description": "Heavy sole boots with matte leather finish.",
+    "variants": {
+      "colors": ["black", "brown"],
+      "sizes": [6, 7, 8, 9, 10, 11]
+    }
+  },
+  {
+    "id": 19,
+    "name": "Lorien Hoop Earrings",
+    "price": 220,
+    "category": "jewelry",
+    "type": "earrings",
+    "image": "/images/product19.jpg",
+    "description": "Gold-tone minimalist hoop earrings.",
+    "variants": {
+      "colors": ["gold", "silver"],
+      "sizes": ["small", "medium", "large"]
+    }
+  },
+  {
+    "id": 20,
+    "name": "Nyra Layered Chain Necklace",
+    "price": 260,
+    "category": "jewelry",
+    "type": "necklace",
+    "image": "/images/product20.jpg",
+    "description": "Layered delicate chain necklace set.",
+    "variants": {
+      "colors": ["gold", "silver"],
+      "sizes": ["one-size"]
+    }
   }
+
   ]
 }
