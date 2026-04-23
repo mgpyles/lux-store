@@ -1,6 +1,17 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
+  "products": [
+    "id": 1,
+    "name": "Velora Quilted Shoulder Bag",
+    "price": 1200,
+    "category": "bags",
+    "type": "shoulder bag",
+    "image": "/images/product1.jpg",
+    "description": "Quilted faux-leather shoulder bag with gold chain detailing.",
+    "variants": {
+      "colors": ["black", "cream", "wine"],
+      "sizes": ["one-size"]
+    }
+  },
     { "id": 2, "title": "Post 2" },
     { "id": 3, "title": "Post 3" }
   ]
