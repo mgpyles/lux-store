@@ -1,14 +1,228 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+ products: [
+    {
+      id: 1,
+      name: "Aurelia Quilted Mini Bag",
+      price: 1850,
+      category: "bags",
+      type: "handbag",
+      image: "/images/product-1.jpg",
+      description: "Quilted vegan leather mini bag with gold-tone chain strap.",
+      variants: {
+        colors: ["onyx", "ivory", "blush"],
+        sizes: ["one-size"]
+      }
+    },
+    {
+      id: 2,
+      name: "Noir Atelier Structured Tote",
+      price: 2100,
+      category: "bags",
+      type: "tote",
+      image: "/images/product-2.jpg",
+      description: "Structured leather tote with minimalist silhouette.",
+      variants: {
+        colors: ["black", "espresso", "sand"],
+        sizes: ["one-size"]
+      }
+    },
+    {
+      id: 3,
+      name: "Lunara Silk Evening Gown",
+      price: 3200,
+      category: "women's",
+      type: "dress",
+      image: "/images/product-3.jpg",
+      description: "Floor-length silk gown with soft draping and open back.",
+      variants: {
+        colors: ["midnight", "emerald", "ivory"],
+        sizes: ["XS", "S", "M", "L"]
+      }
+    },
+    {
+      id: 4,
+      name: "Elyse Tailored Wool Coat",
+      price: 2750,
+      category: "women's",
+      type: "coat",
+      image: "/images/product-4.jpg",
+      description: "Double-breasted wool coat with structured shoulders.",
+      variants: {
+        colors: ["camel", "charcoal", "black"],
+        sizes: ["XS", "S", "M", "L", "XL"]
+      }
+    },
+    {
+      id: 5,
+      name: "Vanta Leather Low Sneakers",
+      price: 890,
+      category: "shoes",
+      type: "sneakers",
+      image: "/images/product-5.jpg",
+      description: "Minimal leather sneakers with cushioned sole.",
+      variants: {
+        colors: ["white", "black", "bone"],
+        sizes: [6, 7, 8, 9, 10, 11, 12]
+      }
+    },
+
+    // --- WOMEN'S ---
+    {
+      id: 6,
+      name: "Solenne Satin Midi Dress",
+      price: 1450,
+      category: "women's",
+      type: "dress",
+      image: "/images/product-6.jpg",
+      description: "Satin midi dress with subtle sheen and fitted waist.",
+      variants: { colors: ["rose", "black", "champagne"], sizes: ["XS", "S", "M", "L"] }
+    },
+    {
+      id: 7,
+      name: "Aria Pleated Skirt",
+      price: 980,
+      category: "women's",
+      type: "skirt",
+      image: "/images/product-7.jpg",
+      description: "High-waisted pleated skirt with flowing movement.",
+      variants: { colors: ["ivory", "black", "sage"], sizes: ["XS", "S", "M", "L"] }
+    },
+    {
+      id: 8,
+      name: "Velora Silk Blouse",
+      price: 1200,
+      category: "women's",
+      type: "blouse",
+      image: "/images/product-8.jpg",
+      description: "Lightweight silk blouse with concealed buttons.",
+      variants: { colors: ["white", "pearl", "blush"], sizes: ["XS", "S", "M", "L"] }
+    },
+    {
+      id: 9,
+      name: "Orion Tailored Trousers",
+      price: 1100,
+      category: "women's",
+      type: "pants",
+      image: "/images/product-9.jpg",
+      description: "High-rise tailored trousers with straight leg fit.",
+      variants: { colors: ["black", "stone", "navy"], sizes: ["XS", "S", "M", "L", "XL"] }
+    },
+
+    // --- MEN'S ---
+    {
+      id: 10,
+      name: "Cairo Slim Fit Shirt",
+      price: 780,
+      category: "men's",
+      type: "shirt",
+      image: "/images/product-10.jpg",
+      description: "Crisp cotton shirt with modern slim silhouette.",
+      variants: { colors: ["white", "sky", "black"], sizes: ["S", "M", "L", "XL"] }
+    },
+    {
+      id: 11,
+      name: "Monarch Wool Suit Set",
+      price: 3900,
+      category: "men's",
+      type: "suit",
+      image: "/images/product-11.jpg",
+      description: "Two-piece wool suit with sharp tailoring.",
+      variants: { colors: ["charcoal", "navy", "black"], sizes: ["48", "50", "52", "54"] }
+    },
+    {
+      id: 12,
+      name: "Axis Lightweight Jacket",
+      price: 1600,
+      category: "men's",
+      type: "jacket",
+      image: "/images/product-12.jpg",
+      description: "Water-resistant lightweight zip jacket.",
+      variants: { colors: ["black", "olive", "gray"], sizes: ["S", "M", "L", "XL"] }
+    },
+
+    // --- SHOES ---
+    {
+      id: 13,
+      name: "Nova Sculpt Heels",
+      price: 1250,
+      category: "shoes",
+      type: "heels",
+      image: "/images/product-13.jpg",
+      description: "Architectural stiletto heels with sculpted heel design.",
+      variants: { colors: ["black", "nude", "red"], sizes: [5, 6, 7, 8, 9, 10] }
+    },
+    {
+      id: 14,
+      name: "Linea Soft Boots",
+      price: 1350,
+      category: "shoes",
+      type: "boots",
+      image: "/images/product-14.jpg",
+      description: "Knee-high leather boots with soft structure.",
+      variants: { colors: ["black", "brown"], sizes: [5, 6, 7, 8, 9, 10] }
+    },
+    {
+      id: 15,
+      name: "Atlas Street Sneakers",
+      price: 920,
+      category: "shoes",
+      type: "sneakers",
+      image: "/images/product-15.jpg",
+      description: "Chunky sole sneakers with layered panel design.",
+      variants: { colors: ["white", "gray", "black"], sizes: [6, 7, 8, 9, 10, 11, 12] }
+    },
+
+    // --- ACCESSORIES ---
+    {
+      id: 16,
+      name: "Eon Minimal Watch",
+      price: 2200,
+      category: "accessories",
+      type: "watch",
+      image: "/images/product-16.jpg",
+      description: "Minimal stainless steel analog watch.",
+      variants: { colors: ["silver", "black", "gold"], sizes: ["38mm", "42mm"] }
+    },
+    {
+      id: 17,
+      name: "Halo Oversized Sunglasses",
+      price: 650,
+      category: "accessories",
+      type: "sunglasses",
+      image: "/images/product-17.jpg",
+      description: "Bold oversized UV-protected sunglasses.",
+      variants: { colors: ["black", "tortoise", "smoke"], sizes: ["one-size"] }
+    },
+    {
+      id: 18,
+      name: "Lume Leather Belt",
+      price: 420,
+      category: "accessories",
+      type: "belt",
+      image: "/images/product-18.jpg",
+      description: "Premium leather belt with brushed metal buckle.",
+      variants: { colors: ["black", "brown"], sizes: ["S", "M", "L", "XL"] }
+    },
+
+    // --- JEWELRY ---
+    {
+      id: 19,
+      name: "Celeste Pendant Necklace",
+      price: 980,
+      category: "jewelry",
+      type: "necklace",
+      image: "/images/product-19.jpg",
+      description: "Delicate pendant necklace with crystal centerpiece.",
+      variants: { colors: ["silver", "gold", "rose gold"], sizes: ["16in", "18in"] }
+    },
+    {
+      id: 20,
+      name: "Aurum Stack Bracelet",
+      price: 760,
+      category: "jewelry",
+      type: "bracelet",
+      image: "/images/product-20.jpg",
+      description: "Stackable gold-tone bracelet set.",
+      variants: { colors: ["gold", "silver"], sizes: ["small", "medium", "large"] }
+    }
 }
